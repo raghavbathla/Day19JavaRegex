@@ -33,7 +33,7 @@ public class Verify {
 
     public String validEmail(){
         boolean flag = true;
-        String patternEx = "[A-Za-z]{3,}";
+        String patternEx = "^[\\w!#$%&'*+/=?`{|}~^-]+(?:\\.[\\w!#$%&'*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
         pattern = Pattern.compile(patternEx);
         while (flag) {
             System.out.println("Please enter Valid Email");
