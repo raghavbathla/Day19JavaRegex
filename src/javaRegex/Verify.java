@@ -39,7 +39,7 @@ public class Verify {
             System.out.println("Please enter Valid Email");
             String email = scanner.nextLine();
             Matcher matcher = pattern.matcher(email);
-            System.out.println(12/0);
+
             boolean result = matcher.matches();
             if (result) {
                 flag = false;
@@ -58,7 +58,7 @@ public class Verify {
             System.out.println("Please enter Valid Email");
             String email = scanner.nextLine();
             Matcher matcher = pattern.matcher(email);
-            System.out.println(12/0);
+
             boolean result = matcher.matches();
             if (result) {
                 flag = false;
@@ -77,7 +77,7 @@ public class Verify {
             System.out.println("Please enter Valid Email");
             String email = scanner.nextLine();
             Matcher matcher = pattern.matcher(email);
-            System.out.println(12/0);
+
             boolean result = matcher.matches();
             if (result) {
                 flag = false;
