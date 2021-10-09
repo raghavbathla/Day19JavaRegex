@@ -45,7 +45,6 @@ public class Verify {
                 flag = false;
                 return email;
 
-
             }
         }
         return null;
