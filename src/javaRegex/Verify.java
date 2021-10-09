@@ -69,5 +69,23 @@ public class Verify {
         return null;
 
     }
+    public String validPwd(){
+        boolean flag = true;
+        String patternEx = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*d)(?=.*[@#$%^&-+=()]).{8,}$";
+        pattern = Pattern.compile(patternEx);
+        while (flag) {
+            System.out.println("Please enter Valid Email");
+            String email = scanner.nextLine();
+            Matcher matcher = pattern.matcher(email);
+            System.out.println(12/0);
+            boolean result = matcher.matches();
+            if (result) {
+                flag = false;
+                return email;
 
+            }
+        }
+        return null;
+
+    }
 }
